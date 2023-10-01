@@ -1,0 +1,191 @@
+/* Default styles for all screen sizes */
+.navbar-brand {
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: gray;
+}
+
+.carousel-caption h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: darkgreen;
+}
+
+.carousel-caption p {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.second h1 {
+    font-size: 70px;
+    font-weight: bolder;
+    color: darkgreen;
+}
+
+.second p {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.carousel-caption h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.fa-solid {
+    margin-bottom: 40px;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+.emergency h2 {
+    font-weight: bolder;
+}
+
+.call-us h4 {
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.call-us a {
+    color: darkgreen;
+}
+
+.details h1 {
+    margin-bottom: 35px;
+}
+
+.heading h1 {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 80px 0;
+}
+
+.heading p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 80px;
+}
+
+.p-2 h1 {
+    font-family: 'Roboto', sans-serif;
+    color: skyblue;
+}
+
+.littlespace {
+    margin-left: 20px;
+}
+
+.space {
+    margin-left: 45px;
+}
+
+.p-2 p {
+    margin-bottom: 130px;
+}
+
+.healthservices h1 {
+    font-weight: bolder;
+}
+
+.top h5 {
+    margin-top: 15px;
+}
+
+.bottom p {
+    margin-left: 100px;
+}
+
+.thirdcontainer {
+    margin-top: 100px;
+    background-color: antiquewhite;
+}
+
+.title h1 {
+    color: blue;
+}
+
+.title p {
+    width: 600px;
+    margin-top: 15px;
+}
+
+.first {
+    width: 200px;
+}
+
+.first h5 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.down {
+    margin-top: 40px;
+}
+
+.fourthcontainer {
+    margin-top: 150px;
+}
+
+.fifthcontainer {
+    margin-top: 150px;
+    background-color: #E4EFEF;
+}
+
+.siu {
+    background-color: white;
+}
+
+.appointments {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.leftborder {
+    border-left: 5px solid blue;
+}
+
+/* Responsive CSS for mobile devices (up to 767px wide) */
+@media (max-width: 767px) {
+    /* Adjust font sizes and margins for smaller screens */
+    .navbar-brand {
+        font-size: large;
+    }
+
+    .carousel-caption h1,
+    .second h1 {
+        font-size: 40px;
+    }
+
+    .second p,
+    .p-2 p,
+    .title p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .call-us h4 {
+        font-size: 24px;
+    }
+
+    .carousel-inner img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    /* Remove right margin for the heading in .heading */
+    .heading h1 {
+        margin-right: 0;
+    }
+
+    /* Adjust margin for .down */
+    .down {
+        margin-top: 20px;
+    }
+}
