@@ -90,19 +90,9 @@ p{
     font-family: 'Roboto', sans-serif;
     color: skyblue;
     bottom: 95px;
-    right:40px;
+    left: 50px;
 }
 
-.littlespace{
-    margin-left: 20px;
-    position: relative;
-    right: 70px;
-}
-
-.space{
-    position: relative;
-    left: 45px;
-}
 
 .p-2 p{
     position: relative;
@@ -179,3 +169,72 @@ p{
 .Details h1{
     font-weight: bold;
 }
+
+/* Mobile-first styles (default) */
+/* Styles for screens with a maximum width of 768px (tablets) */
+@media (max-width: 768px) {
+
+    .carousel-caption{
+        width: 80vw;
+        height: 80vh;
+        margin: auto;
+    }
+
+    .carousel-caption h1{
+        font-size: 40px;
+    }
+
+    .second h1{
+        font-size: 35px;
+    }
+
+    .second p{
+        margin-top: 0;
+    }
+    .p-2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .patients{
+        position: relative;
+        left: 40px;
+    }
+    .position-relative{
+        left: 8px;
+    }
+
+    .ContactUs{
+        width: 500px;
+    }
+
+    .Address{
+        width: 200px;
+    }
+
+    .pic{
+        margin-left: 50px;
+    }
+
+    .rai{
+        word-break: break-word;
+        margin-left: 46px;
+    }
+
+    .nu{
+        margin-left: 98px;
+    }
+
+    .eme{
+        padding-left:30px;
+    }
+
+    .phno{
+        margin-left: 92px;
+    }
+
+  }
+  
+  
+  
