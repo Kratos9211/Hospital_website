@@ -170,6 +170,7 @@ p{
     font-weight: bold;
 }
 
+
 /* Mobile-first styles (default) */
 /* Styles for screens with a maximum width of 768px (tablets) */
 @media (max-width: 768px) {
