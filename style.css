@@ -169,15 +169,26 @@ p{
 .Details h1{
     font-weight: bold;
 }
+.animation {
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: all 0.7s ease-out;
+    transition-delay: 0.4s;
 
+}
+
+.scroll-animation {
+    opacity: 1;
+    transform: translateX(0);
+}
 
 /* Mobile-first styles (default) */
 /* Styles for screens with a maximum width of 768px (tablets) */
 @media (max-width: 768px) {
 
     .carousel-caption{
-        width: 80vw;
-        height: 80vh;
+        width: 100vw;
+        height: 100vh;
         margin: auto;
     }
 

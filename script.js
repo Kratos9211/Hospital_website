@@ -1,8 +1,23 @@
-ScrollReveal().reveal('.animation-element', {
-    duration: 1000,        // Animation duration in milliseconds
-    origin: 'bottom',      // Starting animation direction (top, right, bottom, left)
-    distance: '50px',      // Animation distance
-    delay: 0,              // Delay before the animation starts
-    easing: 'ease-in-out', // Animation easing function
-    reset: true            // Reset animation when it's not in the viewport
-});
+const the_animation = document.querySelectorAll('.animation')
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('scroll-animation')
+        }
+        else {
+             entry.target.classList.remove('scroll-animation')
+            entry.target.classList.add('animation')
+        }
+        
+    })
+},
+   { threshold: 0.1
+   });
+//
+  for (let i = 0; i < the_animation.length; i++) {
+   const elements = the_animation[i];
+
+    observer.observe(elements);
+  } 
+
